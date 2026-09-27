@@ -1,3 +1,2 @@
-# Firmware - from Amlogic/ohm/ohm:14/UKG3.250513.001/phh06150144:userdebug/test-keys - (factory image).
-
-bootloader.img;AB|6bcaf7bab5aab0335fe2ed64df56d7028ee22956
+# Firmware - from Google/ohm/ohm:11/RD2A.211001.002/server06071008:userdebug/release-keys - (factory image).
+bootloader.img;AB
