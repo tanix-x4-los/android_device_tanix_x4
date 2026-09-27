@@ -1,5 +1,5 @@
 ## Bluetooth
-bluetooth.device.default_name=ADT-4
+bluetooth.device.default_name=Tanix X4
 bluetooth.profile.hfp.ag.enabled=false
 bluetooth.profile.opp.enabled=false
 bluetooth.profile.pbap.server.enabled=false
@@ -18,6 +18,3 @@ ro.vendor.nrdp.validation=ninja_10
 
 ## SOC
 ro.soc.model=AMLS905X4
-
-## Wi-Fi
-vendor.wifi_name=qca
