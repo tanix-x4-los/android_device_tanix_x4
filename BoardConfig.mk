@@ -9,7 +9,7 @@ DEVICE_PATH := device/tanix/x4
 TARGET_BOOTLOADER_BOARD_NAME := ohm
 
 ## DTB
-TARGET_DTB_NAME := sc2_s905x4_ah212_drm
+TARGET_DTB_NAME := sc2_s905x4_x4
 TARGET_DTBO_NAME := android_overlay_dt
 BOARD_KERNEL_SEPARATED_DTBO := true
 
