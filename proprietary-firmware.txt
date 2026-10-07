@@ -1,2 +1,2 @@
 # Firmware - from Google/ohm/ohm:11/RD2A.211001.002/server06071008:userdebug/release-keys - (factory image).
-bootloader.img;AB
+odm_ext.img;AB
