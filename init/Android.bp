@@ -1,0 +1,11 @@
+//
+// SPDX-FileCopyrightText: The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+prebuilt_etc {
+    name: "init.x4.rc",
+    src: "init.x4.rc",
+    sub_dir: "init",
+    vendor: true,
+}

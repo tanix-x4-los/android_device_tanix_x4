@@ -1,0 +1,12 @@
+#
+# SPDX-FileCopyrightText: The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+
+# Notify TEE that boot is complete to allow video firmware loading.
+on init
+    write /sys/class/tee_info/sys_boot_complete 1
+
+# Disable AV1 firmware swapping to avoid decoder timeouts.
+on boot
+    write /sys/module/amvdec_av1_v4l/parameters/enable_swap 0
