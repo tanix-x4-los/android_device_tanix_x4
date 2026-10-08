@@ -1,0 +1,7 @@
+vendor.sys.amlbtsdiodriver         u:object_r:vendor_bluetooth_prop:s0
+vendor.sys.amlbtversion            u:object_r:vendor_bluetooth_prop:s0
+ro.vendor.btmodule                 u:object_r:vendor_bluetooth_prop:s0
+persist.vendor.bt_module           u:object_r:vendor_bluetooth_prop:s0
+persist.vendor.bt_name             u:object_r:vendor_bluetooth_prop:s0
+persist.vendor.wifibt_name         u:object_r:vendor_bluetooth_prop:s0
+persist.vendor.libbt_vendor        u:object_r:vendor_bluetooth_prop:s0

@@ -1,0 +1,2 @@
+/dev/wifi_power                 u:object_r:bt_device:s0
+/vendor/lib/firmware/w1(/.*)?    u:object_r:vendor_firmware_wifi_file:s0

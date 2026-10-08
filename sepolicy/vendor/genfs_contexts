@@ -1,0 +1,2 @@
+genfscon sysfs /module/amlogic_wireless/parameters/btpower_evt u:object_r:sysfs_bluetooth_writable:s0
+genfscon sysfs /module/amlogic_wireless/parameters/btwake_evt u:object_r:sysfs_bluetooth_writable:s0
