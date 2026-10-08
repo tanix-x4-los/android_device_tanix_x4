@@ -4,15 +4,8 @@
 #
 
 ## Bluetooth
-PRODUCT_SYSTEM_PROPERTIES += \
-    config.disable_bluetooth=true
-
 PRODUCT_PACKAGES += \
     BluetoothOverlayTarget
-
-## Init
-# PRODUCT_PACKAGES += \
-#    init.amlogic.wifi_buildin.rc
 
 ## Keylayout (IR)
 PRODUCT_COPY_FILES += \
@@ -30,6 +23,8 @@ TARGET_AMLOGIC_SOC := sc2
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+## Wi-Fi
+TARGET_HAVE_WIFIHAL := false
 
 ## Inherit from the common tree product makefile
 $(call inherit-product, device/amlogic/ne-common/ne.mk)

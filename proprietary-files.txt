@@ -47,3 +47,13 @@ vendor/lib/teetz/e043cde0-61d0-11e5-9c26-0002a5d5c51b.ta|c470f3c636cef4a799dd6d2
 vendor/lib/teetz/e92a43ab-b4c8-4450-aa12-b1516259613b.ta|cdc48898584a8f9da9f7385e9209032b38392ace
 vendor/lib/teetz/ff2a4bea-ef6d-11e6-89cc-d4ae52a7b3b3.ta|d6b7b48de86f6ff0d4e74f92fdf52736db0831a5
 
+## Bluetooth - from Google/ohm/ohm:11/RD2A.211001.002/server06071008:userdebug/release-keys - (factory image)
+vendor/etc/bluetooth/w1/aml_bt_rf.txt|23744ebe6607e4c69bbb85d645f84cfbb3991ba3
+vendor/lib/libbt-vendor_aml.so;SYMLINK=vendor/lib/libbt-vendor_amlMulti.so|54198b2b824339269f354b675be3bfac3eb2d007
+
+## Wi-Fi - from Google/ohm/ohm:11/RD2A.211001.002/server06071008:userdebug/release-keys - (factory image).
+vendor/etc/wifi/w1/aml_wifi_rf.txt:vendor/lib/firmware/w1/aml_wifi_rf.txt|6535000124c067f5994c01e8286eda1ba75f1faf
+vendor/etc/wifi/w1/aml_wifi_rf_0321.txt:vendor/lib/firmware/w1/aml_wifi_rf_0321.txt|7a3550bc264a8f2cf47266fefeaaa9112ab27265
+vendor/etc/wifi/w1/aml_wifi_rf_ampak.txt:vendor/lib/firmware/w1/aml_wifi_rf_ampak.txt|20ad87a0161a075a57ba1fc4cf29eea9ee8a7caf
+vendor/etc/wifi/w1/aml_wifi_rf_fn_link.txt:vendor/lib/firmware/w1/aml_wifi_rf_fn_link.txt|20ad87a0161a075a57ba1fc4cf29eea9ee8a7caf
+vendor/etc/wifi/w1/aml_wifi_rf_iton.txt:vendor/lib/firmware/w1/aml_wifi_rf_iton.txt|20ad87a0161a075a57ba1fc4cf29eea9ee8a7caf

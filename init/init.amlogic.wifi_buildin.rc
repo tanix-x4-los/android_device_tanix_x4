@@ -1,7 +1,0 @@
-##
-## SPDX-FileCopyrightText: The LineageOS Project
-## SPDX-License-Identifier: Apache-2.0
-##
-
-on boot
-    insmod /vendor/lib/modules/wlan_6174.ko country_code=CN
